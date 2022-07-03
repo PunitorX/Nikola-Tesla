@@ -2,12 +2,12 @@ body {
     padding-top: 60px;
 }
 
-#personal {
+#biography {
     background-color: #00777d;
 }
 
-#birth {
-    border: black;
+#quotes {
+    background-color: #00777d;
 }
 
 blockquote {
@@ -24,8 +24,8 @@ blockquote {
 }
 
 .card-img-top {
-    width: 100%;
-    height: 30vw;
+    width: auto;
+    height: 25vw;
 }
 
 .d-block.w-100 {
@@ -33,9 +33,14 @@ blockquote {
     height:560px;
 }
 
-/* #carasoul-text {
-    
-} */
+.carousel-caption {
+    padding: 5px;
+    position: relative;
+    height: 200px;
+    left: 0;
+    top: 0;
+    background-color: #00777d;
+}
 
 @media(max-width:979px){
     body{
