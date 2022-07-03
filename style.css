@@ -1,0 +1,44 @@
+body {
+    padding-top: 60px;
+}
+
+#personal {
+    background-color: #00777d;
+}
+
+#birth {
+    border: black;
+}
+
+blockquote {
+    max-width: 600px;
+    margin: 10px 30px;
+    pad: 25px;
+    box-sizing: border-box;
+}
+
+.blockquote-text {
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 30vw;
+}
+
+.d-block.w-100 {
+    width:640px;
+    height:560px;
+}
+
+/* #carasoul-text {
+    
+} */
+
+@media(max-width:979px){
+    body{
+        padding-top: 0px;
+    }
+}
